@@ -1,0 +1,9 @@
+
+.sponsor-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #A02279;
+    padding: 0 50px;
+    
+}

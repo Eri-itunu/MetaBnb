@@ -1,0 +1,20 @@
+
+
+.footer-container{
+    padding: 20px 50px 10px 50px ;
+    background-color: #1D1D1E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.meta,.community,.about,.places{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.meta,.community,.about,.places,.places >p {
+    font-size: 10px
+}

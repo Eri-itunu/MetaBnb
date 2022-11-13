@@ -1,10 +1,12 @@
 
 import './App.css';
-
+import Sponsor from './components/Sponsor/sponsor';
+import Footer from './components/Footer/footer';
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Sponsor/>
+      <Footer/>
     </div>
   );
 }
