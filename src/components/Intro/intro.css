@@ -1,0 +1,53 @@
+.intro-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 30px 50px;
+}
+.left-pane{
+    flex: 3;
+}
+.left-pane > h1{
+    font-family: 'Red Rose';
+    font-size: 55px;
+}
+
+.left-pane>p{
+    font-family: 'Red Rose';
+    font-size: 24px;
+    font-weight: 400;
+}
+.right-pane{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex: 2;
+}
+
+.left-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 7px;
+    padding-top: 30px;
+}
+
+.right-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 7px;
+    padding-bottom: 30px;
+}
+
+.left-images, .right-images > img{
+    width: 200px;
+}
+
+@media (max-width: 820px) {
+
+    .right-pane{
+        display: none;
+    }
+    
+}

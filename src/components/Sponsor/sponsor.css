@@ -4,6 +4,10 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #A02279;
-    padding: 0 50px;
+    padding: 5px 50px;
     
+}
+
+.sponsor-images > img {
+    height: 35px;
 }
