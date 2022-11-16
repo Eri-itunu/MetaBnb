@@ -43,7 +43,7 @@ class Nav extends Component{
                 <div className={this.state.toggle ? "navbar-links" : "navbar-links active"} >
                     <ul>
                         <li>
-                            Home
+                            <a href="/"> Home</a>
                         </li>
                         <li>
                             <a href="/placetostay"> Place to stay</a>
