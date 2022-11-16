@@ -20,10 +20,12 @@ class Nav extends Component{
         
     }
 
-    popup = () =>{
+    popupToggle = () =>{
         this.setState({popup:!this.state.popup})
     }
     render() {
+
+        const {popupToggle} = this;
 
         
         return(
@@ -32,11 +34,11 @@ class Nav extends Component{
                 <div className="metabnb">
                     <img src={meta} alt="" />
                 </div>
-                <a className="toggle-button" href="#" onClick={this.toggleButton} >
+                <button className="toggle-button"  onClick={this.toggleButton} >
                     <span className="bar"></span>
                     <span className="bar"></span>
                     <span className="bar"></span>
-                </a>
+                </button>
 
                 <div className={this.state.toggle ? "navbar-links" : "navbar-links active"} >
                     <ul>
@@ -56,9 +58,10 @@ class Nav extends Component{
                 </div>
 
                 <div className="nav-button">
-                    <button onClick={this.popup}>Connect Wallet</button>
-                    {this.state.popup && <Wallet/>}
+                    <button onClick={this.popupToggle}>Connect Wallet</button>
+                    
                 </div>
+                {this.state.popup && <Wallet popup = {popupToggle}/>}
             </nav>
         )
     }

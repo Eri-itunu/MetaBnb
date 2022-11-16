@@ -11,3 +11,11 @@
 .sponsor-images > img {
     height: 35px;
 }
+
+@media (max-width: 820px) {
+    .adventure-images{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 20px;
+    }
+}  

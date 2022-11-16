@@ -51,3 +51,10 @@
         grid-gap: 20px;
     }
 }     
+
+@media (max-width: 450px) {
+    .adventure-images{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}  
