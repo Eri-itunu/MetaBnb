@@ -10,8 +10,19 @@ class Intro extends Component{
         return(
             <div className="intro-container">
                 <div className="left-pane">
-                    <h1>Rent a Place away from Home in the Metaverse</h1>
+                    
+                    <div>Rent a <span className="purple"> Place</span> away from <span className="purple">Home</span>  in the <span className="purple">Metaverse</span></div>
+
+                    
+                    
                     <p>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
+
+                    <div className="search-bar">
+                        <form>
+                            <input type="text" placeholder="Search for location"/>
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
                 </div>
 
                 <div className="right-pane">
@@ -24,6 +35,8 @@ class Intro extends Component{
                         <img src={image4} alt="" />
                     </div>
                 </div>
+
+                
             </div>
         )
     }

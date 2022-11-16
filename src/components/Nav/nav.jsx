@@ -54,6 +54,11 @@ class Nav extends Component{
                         <li>
                             Community
                         </li>
+                        <li>
+                            <div className="nav-button full">
+                                <button onClick={this.popupToggle}>Connect Wallet</button>
+                            </div>
+                        </li>
                     </ul>
                 </div>
 

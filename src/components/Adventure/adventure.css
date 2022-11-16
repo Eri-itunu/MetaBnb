@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 10px 50px; 
+    padding: 10px 50px;
+    
 }
 .adventure-header{
     justify-content: center;
@@ -14,6 +15,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
+    max-width: 100%;
 }
 
 .adventure-images-card{

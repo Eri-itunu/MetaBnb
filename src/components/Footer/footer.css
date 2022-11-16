@@ -1,7 +1,7 @@
 
 
 .footer-container{
-    padding: 20px 50px 10px 50px ;
+    padding: 20px 50px 30px 50px ;
     background-color: #1D1D1E;
     display: flex;
     flex-direction: row;
@@ -17,4 +17,25 @@
 
 .meta,.community,.about,.places,.places >p {
     font-size: 10px
+}
+
+.meta{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.meta > img{
+    height: 23px;
+}
+
+.socials{
+    display: flex;
+    gap: 10px;
+    padding-left: 15px;
+}
+
+.copy{
+    height: 20px;
+    padding-left: 15px;
 }

@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./heading.css"
-
+import setting from "./images/setting.svg"
 
 class Heading extends Component{
     render(){
@@ -32,7 +32,7 @@ class Heading extends Component{
                         Farm
                         </li>
                         <li>
-                            <button>Location</button>
+                            <button className="location">  Location <img src={setting} alt="" /> </button>
                         </li>
                     
                 </div>
