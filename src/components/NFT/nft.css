@@ -32,3 +32,12 @@
     }
     
 }
+
+.learn{
+    border-radius: 8px;
+    background-color: white;
+    color: #A02279;
+    padding: 15px 10px;
+    width: 150px;
+    border: none;
+}

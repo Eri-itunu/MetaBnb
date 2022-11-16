@@ -1,7 +1,11 @@
 import { Component } from "react";
 import "../nav.css"
 import x from "../images/x.svg"
-class Wallet extends Component{
+import wallet from "../images/Wallet.svg"
+import mask from "../images/Fox.svg"
+import check from "../images/Down Chevron.svg"
+
+class Wallet extends Component{ 
     render(props) {
 
         
@@ -19,8 +23,22 @@ class Wallet extends Component{
 
                     <div className="wallet-options">
                         <p>Choose your preferred wallet:</p>
-                        <button className="options"><img src="" alt="" /> Metamask</button>
-                        <button className="options"><img src="" alt="" /> Wallet Connect</button>
+                        <button className="options">
+                            <div className="image">
+                                <img src={mask} alt="" /> <h1>Metamask</h1>
+                            </div>
+                            <div className="arrow">
+                                <img src={check} alt="" />
+                            </div>
+                        </button>
+                        <button className="options">
+                            <div className="image">
+                                <img src={wallet} alt="" /> <h1>Wallet Connect</h1>
+                            </div>
+                            <div className="arrow">
+                                <img src={check} alt="" />
+                            </div>
+                        </button>
                     </div>
 
                 </div>

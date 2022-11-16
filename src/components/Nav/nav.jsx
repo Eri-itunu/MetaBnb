@@ -46,7 +46,7 @@ class Nav extends Component{
                             Home
                         </li>
                         <li>
-                            Place to stay
+                            <a href="/placetostay"> Place to stay</a>
                         </li>
                         <li>
                             NFTs

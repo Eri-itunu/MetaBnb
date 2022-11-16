@@ -101,7 +101,7 @@
 
 .wallet-container{
     width: 420px;
-    height: 30%;
+    height: 35%;
     background-color: white;
     position: relative;
     border-radius: 15px;
@@ -113,11 +113,16 @@
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid black;
-    font-family: 'Red Roses';
     padding: 10px;
     height: 20%;
     align-items: center;
     
+}
+
+.wallet-header > h1{
+    font-family: 'Red Roses';
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .wallet-options{
@@ -126,4 +131,43 @@
     gap: 2px;
     padding: 0 20px;
 
+}
+
+.wallet-options >p {
+    font-family: 'Red Rose';
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.options{
+    background-color: #F8F9FA;
+    border-radius: 12px;
+    padding: 5px;
+    border: 1px solid #CFD8DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.image>h1{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Red Rose';
+}
+
+.image > img{
+    height: 25px;
+}
+
+.place-images{
+    padding: 10px 50px;
 }
